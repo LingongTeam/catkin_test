@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="serial_rec" name="serial_port" type="serial_port" output="screen" respawn ="true" >
+    <param name="Port" value="/dev/ttyS0" />
+    <param name="Baudrate" value="115200" />
+  </node>
+</launch>
